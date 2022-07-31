@@ -16,3 +16,41 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  font-size: large;
+  font-style: italic;
+  border: 4px solid gray;
+  background-color: rgb(224, 218, 218);
+}
+
+button[data-start] {
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 40px;
+  color: black;
+}
+
+.timer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.field {
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 40px;
+}
+
+.field:not(:last-child) {
+  margin-right: 15px;
+}
+
+.value {
+  font-size: larger;
+}
