@@ -27,7 +27,7 @@ img {
   background-color: rgb(224, 218, 218);
 }
 
-button[data-start] {
+#btn-start {
   display: inline-block;
   width: 70px;
   height: 40px;
